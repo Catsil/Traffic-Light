@@ -1,13 +1,40 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+#app{
+    background-image: url("https://images.unsplash.com/photo-1517685352821-92cf88aee5a5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1074&q=80");
+    background-size: cover;
+}
+.bulb {
+    border-radius: 100%;
+    width: 18rem;
+    height: 18rem;
+    background-color: grey;
+}
 
-    You can write your own styles here...
+.lights{
+    margin-left: 40rem;
+    margin-top: 3rem;
+    border: 6px double gray;
+    justify-content: center;
+    width: 19rem;
+    display: flex;
+    flex-direction: column;
+    background: black;
+    box-shadow: inset 0 -5px 15px rgba(255,255,255,0.4),
     
     
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
 
-*/
+.stop {
+    // background-color: red;
+    background-image: url("https://images.unsplash.com/photo-1606916032472-01b58fbfae54?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    border-radius: 100%;
+}
+
+.wait {
+    // background-color:yellow;
+    background-image: url("https://images.pexels.com/photos/3310691/pexels-photo-3310691.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}
+.go {
+    background-image: url("https://images.unsplash.com/photo-1579254646874-46ce7049df38?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fGF2b2NhZG98ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+}
